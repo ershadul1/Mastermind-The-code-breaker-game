@@ -13,9 +13,13 @@ def random_array_generator(available_items, length_of_generated_array)
   arr
 end
 
-arr =  random_array_generator(letters, 4)
-
-p arr 
+def equality_checker(item1, item2)
+  if item1 == item2
+    return true
+  else
+    return false
+  end
+end
 
 i = 0
 
@@ -25,7 +29,7 @@ while i < 12
   (0..3).each do |i|
     player_input[i] = gets.chomp
   end
-
+  
   p player_input
   i += 1
 end
