@@ -15,9 +15,9 @@ end
 
 def equality_checker(item1, item2)
   if item1 == item2
-    return true
+    true
   else
-    return false
+    false
   end
 end
 
@@ -31,6 +31,10 @@ end
 p new_arr = random_array_generator(letters, 6)
 p number_of_matches(letters, new_arr)
 i = 0
+
+def number_of_same_char(arr1, arr2)
+  
+end
 
 while i < 12
   player_input = []
